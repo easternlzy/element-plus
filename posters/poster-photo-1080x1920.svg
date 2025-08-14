@@ -1,0 +1,53 @@
+<svg width="1080" height="1920" viewBox="0 0 1080 1920" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font-family: Inter, Arial, Helvetica, sans-serif; font-size: 96px; font-weight: 900; fill: #FFFFFF; }
+      .subtitle { font-family: Inter, Arial, Helvetica, sans-serif; font-size: 44px; font-weight: 600; fill: #E5E7EB; }
+      .chip { font-family: Inter, Arial, Helvetica, sans-serif; font-size: 40px; font-weight: 700; fill: #111827; }
+      .meta { font-family: Inter, Arial, Helvetica, sans-serif; font-size: 36px; font-weight: 600; fill: #111827; }
+      .cta { font-family: Inter, Arial, Helvetica, sans-serif; font-size: 48px; font-weight: 800; fill: #FFFFFF; }
+    </style>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(0,0,0,0.6)"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0.2)"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background photo -->
+  <rect x="0" y="0" width="1080" height="1920" fill="#000"/>
+  <image href="{{PHOTO}}" x="0" y="0" width="1080" height="1920" preserveAspectRatio="xMidYMid slice"/>
+  <rect x="0" y="0" width="1080" height="1920" fill="url(#fade)"/>
+
+  <!-- Top branding -->
+  <g transform="translate(60, 120)">
+    <text x="0" y="0" class="subtitle">{{TAGLINE}}</text>
+  </g>
+
+  <!-- Title -->
+  <g transform="translate(60, 480)">
+    <text x="0" y="0" class="title">{{TITLE}}</text>
+    <text x="0" y="90" class="subtitle">{{SUBTITLE}}</text>
+  </g>
+
+  <!-- Info chips -->
+  <g transform="translate(60, 820)">
+    <rect x="0" y="-40" rx="20" ry="20" width="520" height="84" fill="#F9FAFB"/>
+    <text x="20" y="8" class="chip">{{DATE}} · {{TIME}}</text>
+
+    <rect x="0" y="80" rx="20" ry="20" width="820" height="84" fill="#F9FAFB"/>
+    <text x="20" y="128" class="chip">{{LOCATION}}</text>
+  </g>
+
+  <!-- CTA button -->
+  <g transform="translate(60, 1060)">
+    <rect x="0" y="0" width="420" height="120" rx="24" ry="24" fill="#111827"/>
+    <text x="210" y="82" text-anchor="middle" class="cta">{{CTA}}</text>
+  </g>
+
+  <!-- Footer -->
+  <g transform="translate(60, 1720)">
+    <text x="0" y="0" class="meta">{{WEBSITE}}</text>
+    <text x="0" y="60" class="meta">{{SPONSOR}}</text>
+    <text x="0" y="120" class="meta">{{CONTACT}}</text>
+  </g>
+</svg>

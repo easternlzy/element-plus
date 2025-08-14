@@ -1,0 +1,49 @@
+<svg width="2480" height="3508" viewBox="0 0 2480 3508" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#ef4444"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .title { font-family: Inter, Arial, Helvetica, sans-serif; font-size: 180px; font-weight: 900; fill: #FFFFFF; letter-spacing: 2px; }
+      .subtitle { font-family: Inter, Arial, Helvetica, sans-serif; font-size: 64px; font-weight: 600; fill: #F3F4F6; }
+      .chip { font-family: Inter, Arial, Helvetica, sans-serif; font-size: 52px; font-weight: 700; fill: #111827; }
+      .info { font-family: Inter, Arial, Helvetica, sans-serif; font-size: 60px; font-weight: 700; fill: #111827; }
+      .meta { font-family: Inter, Arial, Helvetica, sans-serif; font-size: 42px; font-weight: 600; fill: #111827; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="2480" height="3508" fill="url(#bg)"/>
+  <circle cx="2000" cy="800" r="700" fill="url(#glow)"/>
+  <circle cx="500" cy="2200" r="600" fill="url(#glow)"/>
+
+  <!-- Title -->
+  <text x="200" y="640" class="title">产品发布会</text>
+  <text x="200" y="820" class="subtitle">下一代智能体验</text>
+
+  <!-- Chips -->
+  <g transform="translate(200, 980)">
+    <rect x="0" y="-72" rx="36" ry="36" width="1000" height="120" fill="#F9FAFB"/>
+    <text x="40" y="8" class="chip">2025-09-15 · 14:00 - 16:00</text>
+    <rect x="1040" y="-72" rx="36" ry="36" width="1100" height="120" fill="#F9FAFB"/>
+    <text x="1080" y="8" class="chip">上海·张江科学会堂</text>
+  </g>
+
+  <!-- CTA block -->
+  <g transform="translate(200, 1260)">
+    <rect x="0" y="0" width="2080" height="420" rx="24" ry="24" fill="#F9FAFB"/>
+    <text x="60" y="150" class="info">立即报名</text>
+    <text x="60" y="260" class="meta">example.com · Acme Tech · contact@example.com</text>
+  </g>
+
+  <!-- QR footer -->
+  <g transform="translate(200, 2860)">
+    <rect x="0" y="0" width="420" height="420" rx="24" ry="24" fill="#111827"/>
+    <text x="0" y="480" class="meta">扫码报名</text>
+  </g>
+</svg>

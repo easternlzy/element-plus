@@ -1,0 +1,53 @@
+<svg width="2480" height="3508" viewBox="0 0 2480 3508" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .brand { font-family: Inter, Arial, Helvetica, sans-serif; font-size: 64px; font-weight: 800; fill: #FFFFFF; }
+      .title { font-family: Inter, Arial, Helvetica, sans-serif; font-size: 160px; font-weight: 900; fill: #111827; }
+      .subtitle { font-family: Inter, Arial, Helvetica, sans-serif; font-size: 60px; font-weight: 600; fill: #374151; }
+      .meta { font-family: Inter, Arial, Helvetica, sans-serif; font-size: 48px; font-weight: 600; fill: #111827; }
+      .small { font-family: Inter, Arial, Helvetica, sans-serif; font-size: 40px; font-weight: 500; fill: #6B7280; }
+      .cta { font-family: Inter, Arial, Helvetica, sans-serif; font-size: 72px; font-weight: 800; fill: #FFFFFF; }
+    </style>
+    <linearGradient id="leftbar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#1f2937"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="2480" height="3508" fill="#F9FAFB"/>
+  <rect x="0" y="0" width="520" height="3508" fill="url(#leftbar)"/>
+
+  <!-- Brand area -->
+  <g transform="translate(80, 200)">
+    <text x="0" y="0" class="brand">用AI点亮每一刻</text>
+    <rect x="0" y="40" width="360" height="8" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Content area -->
+  <g transform="translate(640, 540)">
+    <text x="0" y="0" class="title">产品发布会</text>
+    <text x="0" y="160" class="subtitle">下一代智能体验</text>
+
+    <g transform="translate(0, 320)">
+      <text x="0" y="0" class="meta">日期与时间：2025-09-15 · 14:00 - 16:00</text>
+      <text x="0" y="90" class="meta">地点：上海·张江科学会堂</text>
+    </g>
+
+    <g transform="translate(0, 560)">
+      <rect x="0" y="0" width="900" height="160" rx="20" ry="20" fill="#111827"/>
+      <text x="450" y="112" text-anchor="middle" class="cta">立即报名</text>
+    </g>
+
+    <g transform="translate(0, 860)">
+      <text x="0" y="0" class="small">网站：example.com</text>
+      <text x="0" y="80" class="small">主办：Acme Tech</text>
+      <text x="0" y="160" class="small">联系：contact@example.com</text>
+    </g>
+  </g>
+
+  <!-- QR area -->
+  <g transform="translate(640, 2860)">
+    <rect x="0" y="0" width="420" height="420" rx="24" ry="24" fill="#E5E7EB"/>
+    <text x="0" y="480" class="small">扫码报名</text>
+  </g>
+</svg>
