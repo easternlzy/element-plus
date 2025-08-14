@@ -1,0 +1,44 @@
+<svg width="2480" height="3508" viewBox="0 0 2480 3508" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font-family: Inter, Arial, Helvetica, sans-serif; font-size: 170px; font-weight: 900; fill: #0B1020; }
+      .subtitle { font-family: Inter, Arial, Helvetica, sans-serif; font-size: 62px; font-weight: 600; fill: #1F2937; }
+      .info { font-family: Inter, Arial, Helvetica, sans-serif; font-size: 58px; font-weight: 700; fill: #0B1020; }
+      .meta { font-family: Inter, Arial, Helvetica, sans-serif; font-size: 42px; font-weight: 600; fill: #374151; }
+      .cta { font-family: Inter, Arial, Helvetica, sans-serif; font-size: 68px; font-weight: 800; fill: #FFFFFF; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="2480" height="3508" fill="#F3F4F6"/>
+  <circle cx="2200" cy="360" r="300" fill="#DBEAFE"/>
+  <rect x="-200" y="2400" width="1200" height="1200" rx="80" ry="80" fill="#E9D5FF" transform="rotate(-20)"/>
+  <polygon points="2100,3100 2480,3300 2300,3508" fill="#FFD6A5"/>
+
+  <!-- Title and subtitle -->
+  <g transform="translate(220, 560)">
+    <text x="0" y="0" class="title">{{TITLE}}</text>
+    <text x="0" y="160" class="subtitle">{{SUBTITLE}}</text>
+  </g>
+
+  <!-- Info blocks -->
+  <g transform="translate(220, 920)">
+    <rect x="0" y="-70" width="1000" height="120" rx="18" ry="18" fill="#FFFFFF"/>
+    <text x="24" y="0" class="info">{{DATE}} · {{TIME}}</text>
+
+    <rect x="0" y="90" width="1600" height="120" rx="18" ry="18" fill="#FFFFFF"/>
+    <text x="24" y="160" class="info">{{LOCATION}}</text>
+  </g>
+
+  <!-- CTA -->
+  <g transform="translate(220, 1260)">
+    <rect x="0" y="0" width="900" height="160" rx="20" ry="20" fill="#0B1020"/>
+    <text x="450" y="112" text-anchor="middle" class="cta">{{CTA}}</text>
+  </g>
+
+  <!-- Meta footer -->
+  <g transform="translate(220, 2860)">
+    <text x="0" y="0" class="meta">{{WEBSITE}}</text>
+    <text x="0" y="80" class="meta">{{SPONSOR}}</text>
+    <text x="0" y="160" class="meta">{{CONTACT}}</text>
+  </g>
+</svg>

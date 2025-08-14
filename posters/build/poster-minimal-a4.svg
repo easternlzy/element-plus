@@ -1,0 +1,42 @@
+<svg width="2480" height="3508" viewBox="0 0 2480 3508" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <style>
+      .title { font-family: Inter, Arial, Helvetica, sans-serif; font-size: 200px; font-weight: 800; fill: #FFFFFF; }
+      .subtitle { font-family: Inter, Arial, Helvetica, sans-serif; font-size: 72px; font-weight: 500; fill: #E5E7EB; }
+      .info { font-family: Inter, Arial, Helvetica, sans-serif; font-size: 64px; font-weight: 600; fill: #FFFFFF; }
+      .meta { font-family: Inter, Arial, Helvetica, sans-serif; font-size: 44px; font-weight: 500; fill: #E5E7EB; }
+      .cta { font-family: Inter, Arial, Helvetica, sans-serif; font-size: 72px; font-weight: 800; fill: #0F172A; }
+      .small { font-family: Inter, Arial, Helvetica, sans-serif; font-size: 36px; font-weight: 500; fill: #E5E7EB; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="2480" height="3508" fill="#0F172A" />
+
+  <!-- Top brand / tagline -->
+  <text x="1240" y="320" text-anchor="middle" class="small">用AI点亮每一刻</text>
+
+  <!-- Main title -->
+  <text x="1240" y="820" text-anchor="middle" class="title">产品发布会</text>
+  <text x="1240" y="960" text-anchor="middle" class="subtitle">下一代智能体验</text>
+
+  <!-- Info block -->
+  <g transform="translate(0, 1140)">
+    <text x="1240" y="0" text-anchor="middle" class="info">2025-09-15 · 14:00 - 16:00</text>
+    <text x="1240" y="140" text-anchor="middle" class="info">上海·张江科学会堂</text>
+  </g>
+
+  <!-- CTA pill -->
+  <g transform="translate(0, 1560)">
+    <rect x="840" y="0" rx="40" ry="40" width="800" height="180" fill="#FFFFFF" />
+    <text x="1240" y="124" text-anchor="middle" class="cta">立即报名</text>
+  </g>
+
+  <!-- QR and website footer -->
+  <g transform="translate(0, 2860)">
+    <rect x="360" y="0" width="380" height="380" fill="#1F2937" rx="16" ry="16" />
+    <text x="550" y="420" text-anchor="middle" class="small">扫码报名</text>
+    <text x="2120" y="120" text-anchor="end" class="meta">example.com</text>
+    <text x="2120" y="200" text-anchor="end" class="meta">Acme Tech</text>
+    <text x="2120" y="280" text-anchor="end" class="meta">contact@example.com</text>
+  </g>
+</svg>
